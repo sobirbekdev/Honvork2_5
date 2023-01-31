@@ -37,6 +37,7 @@
 }
 
 header {
+    padding: 10px 0;
     max-height: 1114px;
     max-width: 1920px;
     width: 100%;
@@ -49,6 +50,10 @@ header {
     justify-content: space-between;
     align-items: center;
 
+}
+.header__button__media{
+    display: none;
+    background-color: var(--button-color);
 }
 
 .header__navbar {
@@ -356,7 +361,7 @@ header {
 .section1__list {
     display: flex;
     margin-top: 69px;
-    gap: 165px;
+    gap: 73px;
 }
 
 .section1__item {
@@ -367,13 +372,11 @@ header {
     color: var(--h1-h2-h3-color-background-hover);
 }
 
-.section1__list2 {
-    display: flex;
-    margin-top: 29px;
-    gap: 85px;
-}
+
 
 .section1__item2 {
+    width: 150px;
+    margin-top: 10px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -969,4 +972,92 @@ footer {
     transform: scale(1.1, 1.1);
     transition: all 0.5s ease-in-out;
     color: var(--active-color);
+}
+           
+          /* media */
+
+@media screen and (max-width:481px) {
+.contoiner{
+    max-width: 100%;
+    padding: 0 15px;
+}
+    .header__button__media{
+    display: inline-block;
+}
+.header__list{
+    display: none;
+}
+.header__button{
+    display: none;
+}
+.header__navbar3{
+    display: none;
+}
+.header__titile2 {
+    width: auto;
+}
+.header__text{
+    width: auto;
+}
+
+.section1__box{
+    display: flex;
+    flex-direction: column;
+}
+.section1__list{
+    display: flex;
+    flex-direction: column;
+}
+.section1__navbar {
+    padding: 50px 115px;
+}
+.section__box1{
+    padding: 0;
+}
+.section__card{
+    grid-template-columns: 1fr;
+}
+.section__box3{
+    width: auto;
+}
+.section__box4{
+    flex-direction: column;
+}
+.section__box5{
+    flex-direction: column;  
+}
+.box5__text{
+    width: auto;
+}
+.section2__box{
+    display: flex;
+    flex-direction: column;
+}
+.section3 {
+    display: flex;
+    flex-direction: column;
+}
+.section3__navbar {
+    padding: 0;
+}
+.navbar2__title {
+    width: auto;
+}
+.navbar__text{
+    width: auto;
+}
+.section3__item1{
+    margin-left: 0;
+}
+.footer__box{
+    flex-direction: column;
+}
+.footer__box3 {
+    margin-top: 35px;
+    gap: 40px;
+}
+
+
+
+
 }
