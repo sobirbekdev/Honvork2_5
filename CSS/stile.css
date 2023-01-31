@@ -1016,7 +1016,7 @@ footer {
 }
 .section__box1{
     padding: 0;
-    margin-top: 650px;
+    margin-top: 780px;
 }
 .section__card{
     grid-template-columns: 1fr;
@@ -1048,6 +1048,9 @@ footer {
 .navbar2__title {
     width: auto;
 }
+.section3__text{
+    width: auto;
+}
 .navbar__text{
     width: auto;
 }
@@ -1057,9 +1060,13 @@ footer {
 .footer__box{
     flex-direction: column;
 }
+.footer__text{
+    width: auto;
+}
 .footer__box3 {
     margin-top: 35px;
     gap: 40px;
+    flex-direction: column;
 }
 
 
