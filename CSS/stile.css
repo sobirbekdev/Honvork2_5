@@ -376,7 +376,7 @@ header {
 
 .section1__item2 {
     width: 150px;
-    margin-top: 10px;
+    margin-top: 40px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -389,7 +389,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 400px;
+    margin-top: 40  0px;
     padding: 0 330px;
 }
 
@@ -1008,11 +1008,15 @@ footer {
     display: flex;
     flex-direction: column;
 }
+.section1__item2{
+    padding-top: 10px;
+}
 .section1__navbar {
     padding: 50px 115px;
 }
 .section__box1{
     padding: 0;
+    margin-top: 650px;
 }
 .section__card{
     grid-template-columns: 1fr;
@@ -1020,6 +1024,7 @@ footer {
 .section__box3{
     width: auto;
 }
+
 .section__box4{
     flex-direction: column;
 }
